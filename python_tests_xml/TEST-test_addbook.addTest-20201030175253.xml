@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="test_addbook.addTest-20201030175253" tests="1" time="0.001">
+	<testcase classname="test_addbook.addTest" name="test_add" time="0.001"/>
+	<system-out>
+<![CDATA[Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book2', 'Author': 'Author2'}
+books: [{"Title": "Book2", "Author": "Author2"}]
+books: []
+getbooks
+Book: {'Title': 'Book2', 'Author': 'Author2'}
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

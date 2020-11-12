@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="test_delbook.addTest-20201030172622" tests="1" time="0.003">
+	<testcase classname="test_delbook.addTest" name="test_del" time="0.003">
+		<error message="" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "D:\Programming\Web Frameworks\Tornado\Microservices-1\Source\test_delbook.py", line 12, in test_del
+    assert result2
+AssertionError
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book1', 'Author': 'Author1'}
+books: [{"Title": "Book1", "Author": "Author1"}]
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

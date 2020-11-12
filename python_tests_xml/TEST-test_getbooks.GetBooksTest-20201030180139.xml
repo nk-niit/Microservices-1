@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="test_getbooks.GetBooksTest-20201030180139" tests="1" time="0.001">
+	<testcase classname="test_getbooks.GetBooksTest" name="test_get" time="0.001">
+		<error message="" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "D:\Programming\Web Frameworks\Tornado\Microservices-1\Source\test_getbooks.py", line 13, in test_get
+    assert result == "No Books"
+AssertionError
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book1', 'Author': 'Author1'}
+Book: {'Title': 'Book2', 'Author': 'Author2'}
+books: [{"Title": "Book2", "Author": "Author2"}]
+No books
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
